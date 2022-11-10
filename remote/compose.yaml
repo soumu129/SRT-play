@@ -1,0 +1,5 @@
+services:
+  srt-server:
+    image: ravenium/srt-live-server
+    ports:
+      - 1935:1935/udp
